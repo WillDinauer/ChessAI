@@ -63,15 +63,7 @@ if __name__ == "__main__":
 
     random.seed(1)
 
-    #player_ronda = RandomAI()
-
-    # to do: gui does not work well with HumanPlayer, due to input() use on stdin conflict
-    #   with event loop.
-
-    # player1 = MinimaxAI(2)
-    # player2 = AlphaBetaAI(2)
-
-    player2 = AlphaBetaAI(4)
+    player2 = AlphaBetaAI(3)
     player1 = MinimaxAI(2)
 
     game = ChessGame(player1, player2)

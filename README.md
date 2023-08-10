@@ -5,6 +5,8 @@ William Dinauer, Fall 2022
 This is an artificial intelligence program built using Python to play the game of chess. There are different types of Chess AI that I have implemented, using different algorithms in an attempt to optimize the bot.
 Notably, the Minimax algorithm is used to find a decent move by searching up to a specified depth. Alpha-Beta Pruning is used to increase the efficiency of the AI, decreasing the search space given the size of the depth.
 
+To play against the bot, change player1 (White) or player2 (Black) to HumanPlayer in either test_chess.py or gui_chess.py
+
 ## Usage
 
 To run the AI, either run test_chess.py or gui_chess.py.
